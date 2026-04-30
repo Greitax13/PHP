@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <p><strong><?php echo $mensagem; ?></strong></p>
 
     <br>
-    <a href="index.html">← Voltar</a>
+    <a href="exer3.html">← Voltar</a>
 
 </body>
 </html>
