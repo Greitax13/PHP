@@ -52,7 +52,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <p><strong>Classificação:</strong> <?php echo $classificacao; ?></p>
 
 <br>
-<a href="index.php">Voltar</a>
+<a href="exer1.php">Voltar</a>
 
 </body>
 </html>
