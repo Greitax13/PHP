@@ -6,10 +6,10 @@ $usuario = [
     "cidade" => "Joinville"
 ];
 
-echo $usuario["nome"];
-echo $usuario["idade"];
+// echo $usuario["nome"];
+// echo $usuario["idade"];
 
-echo "Exemplo 6: Iterando com foreach em arrays associativos <br>";
+echo "Exemplo 4.1: Iterando com foreach em arrays associativos <br>";
 foreach ($usuario as $chave => $valor) {
     echo "$chave: $valor <br>";
 }

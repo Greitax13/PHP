@@ -5,17 +5,17 @@ array_push($carros, "Fusca");
 
 print_r($carros);
 echo "<br>";
-echo "Exemplo 7: Manipulando arrays - Contar itens <br>";
-echo count($carros); // 3
+echo "Exemplo 7.1: Manipulando arrays - Contar itens <br>";
+// echo count($carros); // 3
 
 
-echo "Exemplo 7: Manipulando arrays - Verificar existência <br>";
+echo "Exemplo 7.2: Manipulando arrays - Verificar existência <br>";
 if (in_array("Gol", $carros)) {
     echo "Existe!";
 }
 
 echo "<br>";
-echo "Exemplo 7: Manipulando arrays - Remover item <br>";
+echo "Exemplo 7.3: Manipulando arrays - Remover item <br>";
 unset($carros[1]);
 print_r($carros);
 ?>

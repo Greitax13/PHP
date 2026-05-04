@@ -11,9 +11,9 @@ $usuarios = [
     ]
 ];
 
-echo $usuarios[1]["nome"]; // Carlos
+// echo $usuarios[1]["nome"]; // Carlos
 
-echo "Iterando com foreach em arrays multidimensionais associativos <br>";
+echo "Exemplo 6: Iterando com foreach em arrays multidimensionais associativos <br>";
 
 foreach ($usuarios as $user) {
     echo "Nome: " . $user["nome"] . "<br>";

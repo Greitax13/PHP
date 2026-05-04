@@ -6,10 +6,10 @@ $alunos = [
     ["Pedro", 7]
 ];
 
-echo $alunos[0][0]; // João
-echo $alunos[1][1]; // 9
+// echo $alunos[0][0]; // João
+// echo $alunos[1][1]; // 9
 
-echo "Iterando com foreach em arrays multidimensionais <br>";
+echo "Exemplo 5.1: Iterando com foreach em arrays multidimensionais <br>";
 foreach ($alunos as $aluno) {
     echo "Nome: " . $aluno[0] . " - Nota: " . $aluno[1] . "<br>";
 }
