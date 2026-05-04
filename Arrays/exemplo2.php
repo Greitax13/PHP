@@ -5,4 +5,4 @@ $numeros = [10, 20, 30, 40];
 for ($i = 0; $i < count($numeros); $i++) {
     echo "Número: " . $numeros[$i] . "<br>";
 }
-?>
+?> 
